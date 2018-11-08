@@ -695,6 +695,11 @@ public class Solution {
 		}
 		return smallest;
 	}
+	
+	public int shortestDistance(int[][] grid) {
+		int row = grid.length;
+		int col = grid[0].length;
+    }
 	public static void main(String[] args){
 		Solution solution = new Solution();
 //		System.out.println(solution.maxCoins(new int[]{7,9,8,0,7,1,3,5,5,2,3}));
